@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "youtube-audio-download"
+version = "1"
+description = "To download the audio from youtube video"
+authors = ["arunvemana <arunsai4b6@gmail.com>"]
+readme = "README.md"
+packages = [{include = "youtube_audio_download"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytube = "12.1.0"
+moviepy = "1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
